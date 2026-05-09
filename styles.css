@@ -344,35 +344,60 @@ h3 {
   grid-template-columns: minmax(0, 1fr) minmax(260px, 0.52fr);
 }
 
-.badge-card {
-  align-items: center;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(243, 197, 120, 0.24);
-  border-radius: 8px;
-  display: flex;
-  gap: 18px;
-  padding: 22px;
+.badge-gallery {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.badge-emoji {
+.badge-gallery figure,
+.mystery-badge {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(243, 197, 120, 0.2);
+  border-radius: 8px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.badge-gallery img {
+  display: block;
+  width: 100%;
+}
+
+.badge-gallery figcaption {
+  color: rgba(255, 255, 255, 0.72);
+  font-weight: 800;
+  padding: 10px 12px 12px;
+  text-align: center;
+}
+
+.mystery-badge {
   align-items: center;
-  background: rgba(243, 197, 120, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 180px;
+  padding: 18px;
+  text-align: center;
+}
+
+.mystery-badge span {
+  align-items: center;
+  border: 1px solid rgba(243, 197, 120, 0.38);
   border-radius: 999px;
+  color: var(--gold);
   display: inline-flex;
   font-size: 42px;
+  font-weight: 900;
   height: 74px;
   justify-content: center;
+  margin-bottom: 12px;
   width: 74px;
 }
 
-.badge-card strong,
-.badge-card small {
-  display: block;
-}
-
-.badge-card small {
-  color: rgba(255, 255, 255, 0.58);
-  margin-top: 6px;
+.mystery-badge small {
+  color: rgba(255, 255, 255, 0.64);
+  font-weight: 800;
 }
 
 .usecase-section {
@@ -618,8 +643,7 @@ summary + p {
     border-radius: 22px;
   }
 
-  .badge-card {
-    align-items: flex-start;
-    flex-direction: column;
+  .badge-gallery {
+    grid-template-columns: 1fr;
   }
 }
