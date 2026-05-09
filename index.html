@@ -3,140 +3,191 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ドリームタイマー | 1万時間を積み上げる記録アプリ</title>
+    <title>ドリームタイマー | 夢に使った時間を、静かに積み上げる</title>
     <meta
       name="description"
-      content="ドリームタイマーは、夢や目標に向けた努力を時間として記録し、1万時間への進捗を可視化する計測補助アプリです。"
+      content="ドリームタイマーは、勉強・運動・読書・副業・仕事など、夢や目標に向けて使った時間をタイマーで記録するiOSアプリです。"
     >
     <meta property="og:title" content="ドリームタイマー">
     <meta
       property="og:description"
-      content="才能よりも、積み上げを信じる人のための1万時間記録アプリ。"
+      content="今日も何もできなかった、を減らす。夢に使った時間を、静かに積み上げるタイマーアプリ。"
     >
     <meta property="og:type" content="website">
+    <link rel="icon" href="assets/marketing/icon.png">
+    <link rel="apple-touch-icon" href="assets/marketing/icon.png">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body class="marketing-page">
     <header class="site-header dark-header" aria-label="サイトヘッダー">
       <a class="brand" href="index.html" aria-label="ドリームタイマー ホーム">
-        <span class="app-icon" aria-hidden="true">DT</span>
+        <img class="brand-icon" src="assets/marketing/icon.png" alt="">
         <span>ドリームタイマー</span>
       </a>
       <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="#story">想い</a>
+        <a href="#how">使い方</a>
         <a href="#features">特徴</a>
-        <a href="#screens">画面</a>
         <a href="privacy.html">プライバシー</a>
         <a href="support.html">サポート</a>
       </nav>
     </header>
 
     <main>
-      <section class="hero marketing-hero">
-        <div class="hero-screens" aria-hidden="true">
-          <img class="hero-shot hero-shot-main" src="assets/screenshots/progress.png" alt="">
-          <img class="hero-shot hero-shot-side" src="assets/screenshots/goals.png" alt="">
-        </div>
+      <section class="hero dream-hero">
         <div class="hero-copy">
-          <p class="eyebrow">10,000 hour tracker</p>
-          <h1>1万時間を、感覚ではなく記録で積み上げる。</h1>
+          <p class="eyebrow">Dream Timer</p>
+          <h1>夢に使った時間を、静かに積み上げる。</h1>
           <p class="lead">
-            ドリームタイマーは、夢や目標に向けた努力を「気合い」ではなく、
-            実際に投下した時間として残すための計測補助アプリです。
+            ドリームタイマーは、勉強・運動・読書・副業・仕事など、
+            目標に向けて使った時間を記録するタイマーアプリです。
+            小さな努力が、少しずつ残っていきます。
           </p>
           <div class="actions">
-            <a class="button primary" href="#features">できることを見る</a>
-            <a class="button secondary" href="#screens">画面を見る</a>
+            <a class="button primary" href="#download">App Storeでダウンロード</a>
+            <a class="button secondary" href="#story">もう少し見る</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-label="ドリームタイマーのアプリ画面">
+          <img src="assets/marketing/hero.jpg" alt="ドリームタイマーのタイマー画面">
+        </div>
+      </section>
+
+      <section id="story" class="section quiet-section">
+        <div class="section-heading narrow-heading">
+          <p class="eyebrow">Story</p>
+          <h2>「今日も何もできなかった」と思う日にも。</h2>
+        </div>
+        <div class="copy-block wide-copy">
+          <p>
+            10分だけ勉強した。少しだけ運動した。読みかけの本を、数ページだけ進めた。
+          </p>
+          <p>
+            大きな成果には見えなくても、何かに向き合った時間はあります。
+            ドリームタイマーは、その小さな時間をちゃんと残すためのアプリです。
+          </p>
+        </div>
+      </section>
+
+      <section id="how" class="section step-section">
+        <div class="section-heading">
+          <p class="eyebrow">How it works</p>
+          <h2>記録は、タイマーを押すだけ。</h2>
+        </div>
+        <div class="step-grid">
+          <article class="step-card">
+            <span>1</span>
+            <h3>目標を登録する</h3>
+            <p>勉強、運動、読書、副業。積み上げたいことを、短い名前で置いておきます。</p>
+          </article>
+          <article class="step-card">
+            <span>2</span>
+            <h3>タイマーを開始する</h3>
+            <p>始めるときに押すだけ。複雑な設定や細かい管理は必要ありません。</p>
+          </article>
+          <article class="step-card">
+            <span>3</span>
+            <h3>終わったら記録する</h3>
+            <p>使った時間が自然に残ります。メモを添えれば、何をしたかも振り返れます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section showcase-section">
+        <div class="showcase-copy">
+          <p class="eyebrow">Visualize</p>
+          <h2>小さな努力が、見える。</h2>
+          <p>
+            日々の記録は、ヒートマップのように残ります。
+            たくさんできた日も、少しだけできた日も、あとから見返すと
+            自分が続けてきたことに気づけます。
+          </p>
+        </div>
+        <div class="showcase-image">
+          <img src="assets/marketing/heatmap-badges.jpg" alt="ヒートマップとバッジで積み上げを確認する画面">
+        </div>
+      </section>
+
+      <section class="section badge-section">
+        <div class="section-heading">
+          <p class="eyebrow">Badges</p>
+          <h2>続けた時間が、小さなご褒美になる。</h2>
+        </div>
+        <div class="badge-layout">
+          <div class="badge-copy">
+            <p>
+              続けた時間に応じて、動物バッジが少しずつ解放されます。
+              最初はひよこ。いつかドラゴンまで。
+            </p>
+            <p>
+              未達成を並べて焦らせるのではなく、次のバッジをそっと見せる。
+              記録が、少しだけ楽しみになるための静かなご褒美です。
+            </p>
+          </div>
+          <div class="badge-card" aria-label="バッジの例">
+            <span class="badge-emoji">🐣</span>
+            <div>
+              <strong>習慣の芽が出る</strong>
+              <small>次のバッジまで、あと少し。</small>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section intro-section">
+      <section class="section usecase-section">
         <div class="section-heading">
-          <p class="eyebrow">For builders</p>
-          <h2>才能よりも、積み上げを信じる人へ。</h2>
+          <p class="eyebrow">Use cases</p>
+          <h2>続けたいことを、そっと並べる。</h2>
+        </div>
+        <div class="usecase-list" aria-label="利用シーン">
+          <span>勉強</span>
+          <span>運動</span>
+          <span>読書</span>
+          <span>副業</span>
+          <span>仕事</span>
+          <span>資格勉強</span>
+          <span>趣味の練習</span>
+        </div>
+        <div class="usecase-image">
+          <img src="assets/marketing/goals.jpg" alt="勉強、運動、仕事の目標を並べた画面">
+        </div>
+      </section>
+
+      <section class="section goal-section">
+        <div class="section-heading narrow-heading">
+          <p class="eyebrow">Goals</p>
+          <h2>目標は、追われるものではなく、戻ってくる場所。</h2>
         </div>
         <div class="copy-block wide-copy">
           <p>
-            楽器、創作、語学、開発、スポーツ、研究。長期的な熟達には、
-            今日の練習や作業がどれだけ未来へつながっているかを見失わない仕組みが必要です。
+            ドリームタイマーは、細かい達成率や残り時間で急かしません。
+            目標は、何を積み上げたいかを思い出すためのもの。
           </p>
           <p>
-            ドリームタイマーは、複数の目標ごとに時間を分けて記録し、
-            今日・今週・累計の積み上げをカードとチャートで可視化します。
+            自分のペースで続けられるように、記録は静かに残り、
+            積み上げた時間だけが、そっと背中を押します。
           </p>
         </div>
       </section>
 
-      <section id="features" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Features</p>
-          <h2>1万時間の法則を、自分の生活に落とし込む。</h2>
-        </div>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <h3>目標ごとに努力時間を記録</h3>
-            <p>ジャズピアノ、作曲、アプリ開発、英語学習など、取り組みごとに時間を分けて残せます。</p>
-          </article>
-          <article class="feature-card">
-            <h3>1万時間への進捗を可視化</h3>
-            <p>目標時間に対する進捗率、累計時間、色分けされたカードで、積み上げの現在地が見えます。</p>
-          </article>
-          <article class="feature-card">
-            <h3>今日・今週・累計を確認</h3>
-            <p>その日の記録だけでなく、週単位のリズムや長期の伸びも振り返れます。</p>
-          </article>
-          <article class="feature-card">
-            <h3>作業内容とメモを残せる</h3>
-            <p>「英作文」「グラフ改善」のように、時間だけでなく何を進めたかも記録できます。</p>
-          </article>
-          <article class="feature-card">
-            <h3>ロック画面から停止</h3>
-            <p>練習や作業に集中したまま、ロック画面や Dynamic Island からタイマーを確認・停止できます。</p>
-          </article>
-          <article class="feature-card">
-            <h3>優先度つきで複数管理</h3>
-            <p>いま大事にしたい目標を優先度で並べ、時間の投下先を見える状態に保てます。</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="screens" class="section screen-section">
-        <div class="section-heading">
-          <p class="eyebrow">Screens</p>
-          <h2>続けている事実が、静かに残っていく。</h2>
-        </div>
-        <div class="screen-grid">
-          <figure>
-            <img src="assets/screenshots/goals.png" alt="目標ごとの累計時間と進捗率を表示する画面">
-            <figcaption>目標ごとの累計時間と進捗</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/screenshots/timer.png" alt="目標を選んで作業時間を計測するタイマー画面">
-            <figcaption>目標を選んで集中時間を計測</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/screenshots/progress.png" alt="今日、今週、累計推移を確認する成果画面">
-            <figcaption>今日・今週・累計推移を確認</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section id="privacy" class="section split">
-        <div>
-          <p class="eyebrow">Privacy</p>
-          <h2>記録は、あなたのためのもの。</h2>
-        </div>
-        <div class="copy-block">
+      <section id="download" class="section final-cta">
+        <div class="final-card">
+          <img class="final-icon" src="assets/marketing/icon.png" alt="">
+          <p class="eyebrow">Start small</p>
+          <h2>今日の小さな一歩を、残してみませんか。</h2>
           <p>
-            ドリームタイマーは、アカウント登録を求めず、タイマーと記録に必要な範囲で動作します。
-            不要な広告配信やトラッキングを目的とした第三者SDKは利用しません。
+            まずは、少しだけ記録してみる。
+            夢に使った時間を、今日から静かに積み上げる。
           </p>
-          <a class="text-link" href="privacy.html">プライバシーポリシーを確認する</a>
+          <a class="button primary" href="#" aria-label="App Storeでドリームタイマーをダウンロード">
+            App Storeでダウンロード
+          </a>
+          <small>App Store 公開後、ダウンロードURLを設定します。</small>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer dark-footer">
       <span>&copy; 2026 Dream Timer</span>
       <div class="footer-links">
         <a href="support.html">サポート</a>
