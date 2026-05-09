@@ -350,10 +350,9 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.badge-gallery figure,
-.mystery-badge {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(243, 197, 120, 0.2);
+.badge-gallery figure {
+  background: #fffdf7;
+  border: 1px solid rgba(243, 197, 120, 0.22);
   border-radius: 8px;
   margin: 0;
   overflow: hidden;
@@ -361,11 +360,12 @@ h3 {
 
 .badge-gallery img {
   display: block;
+  padding: 10px;
   width: 100%;
 }
 
 .badge-gallery figcaption {
-  color: rgba(255, 255, 255, 0.72);
+  color: #3a2a16;
   font-weight: 800;
   padding: 10px 12px 12px;
   text-align: center;
@@ -373,6 +373,9 @@ h3 {
 
 .mystery-badge {
   align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(243, 197, 120, 0.2);
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
