@@ -13,3 +13,12 @@ git add .
 git commit -m "fix"
 git push origin master
 '''
+
+[[actions]]
+name = "push"
+icon = "tool"
+command = '''
+git add .
+git commit -m "fix"
+git push origin main
+'''
