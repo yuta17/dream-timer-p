@@ -3,6 +3,7 @@
 iOS App Store 申請で利用するための静的サイトです。
 
 - マーケティングURL: `https://yuta17.github.io/dream-timer-p/`
+- 英語マーケティングURL: `https://yuta17.github.io/dream-timer-p/en.html`
 - サポートURL: `https://yuta17.github.io/dream-timer-p/support.html`
 - プライバシーポリシーURL: `https://yuta17.github.io/dream-timer-p/privacy.html`
 
