@@ -493,7 +493,7 @@ h3 {
 
 .support-hero .lead,
 .support-panel p,
-.copy-block p,
+body:not(.marketing-page) .copy-block p,
 .legal-panel p {
   color: var(--muted-dark);
 }
